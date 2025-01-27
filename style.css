@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcebd3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #cookie-clicker-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #8b4513;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    height: 80vh;
+  }
+  
+  #cookie img {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+  
+  #counter-section {
+    text-align: center;
+  }
+  
+  #cookie-counter {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #000;
+  }
+  
+  #shop {
+    width: 300px;
+    text-align: left;
+  }
+  
+  #shop h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #upgrade-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .upgrade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upgrade img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .upgrade button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .upgrade button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
